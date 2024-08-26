@@ -1,0 +1,178 @@
+body{
+  background-image: url(nick.jpg);
+  background-size: contain;
+  background-size: cover;
+  background-position: left;
+  color: white;
+
+} 
+ 
+ 
+ .cadre {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+     margin-top: 2%;
+    margin-right: 1300px;
+    margin-bottom: 0%;
+ }
+ .profil{
+   margin-top: 30px;
+   display: inline-block;
+ }
+ .profil img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   float :left;
+  margin-right: 5%;
+
+ }
+ .moi_meme{
+  
+  width: 600px;
+  
+ }
+ .titre_form{
+  border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+
+ }
+ .parent_pform{
+  line-height: 50%;
+}
+ .p1_form{
+  margin-top: auto;
+ }
+.p2_form{
+  margin-top: 8%;
+}
+.p3_form{
+  margin-top: 8%;
+
+}
+.titre_soft{
+  border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.parent_soft{
+  width: 600px;
+}
+.titre_langue{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  text-align: center;
+
+}
+.parent_langue{
+margin-top: 5%;
+
+}
+.cv{
+  border: 2px solid blue; 
+  background-color: blue; 
+   padding: 10px 20px; 
+   margin: 10px; 
+    color: white; 
+    font-size: 16px;
+    border-radius: 5px; 
+    margin-top: 50px;
+}
+
+.competences{
+  position: absolute;
+  
+  right: 100px;
+  bottom: 0px;
+  top: 0%;
+  margin-top: 28px;
+}
+.titre_competences{
+  border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;  
+}
+.liste_comp{
+  word-spacing: 20px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px; 
+
+}
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px; 
+}
+.titre_realisation{
+  border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;  
+}
+.box {
+  height: 150px;
+}
+
+.conteneur_rea{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 150px 200px;
+}
+    
+
+
+.auto_form img{
+  width: 150px;
+   height: 150px;
+   border: 2px solid white;
+   float :left;
+ 
+}
+.creation_app img{
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  float :left;
+
+}
+
+.creation_app {
+  width: 150px;
+  height: 150px;
+  float :left;
+  margin-left: 100px;
+}
+
+.spe {
+  text-align: left;
+  width: 190px;
+}
+input, textarea {
+  padding: 10px; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 1000px;
+}
+.mon-button{
+  border: 2px solid green; 
+ background-color: green; 
+  padding: 10px 20px; 
+  margin: 10px; 
+   color: white; 
+   font-size: 16px;
+   border-radius: 5px; 
+}
